@@ -1,12 +1,11 @@
-import React from "react";
 import "../../App.css";
-import video from "../../img/hero-video.webm";
+import Hero from "./Hero";
 import Card from "../../components/Card";
 import Clases from "../../components/Clases/index"
-import photo1 from "../../img/photo1.jpg";
-import photo2 from "../../img/photo2.jpg";
-import photo3 from "../../img/photo3.jpg";
-import logo from "../../img/logo.png"
+import photo1 from "../../assets/jpgs/photo1.jpg"
+import photo2 from "../../assets/jpgs/photo2.jpg"
+import photo3 from "../../assets/jpgs/photo3.jpg"
+
 
 import styled from "styled-components";
 
@@ -17,42 +16,20 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
 `
-
-const Hero = () => {
+const Profesores = styled.div`
+ display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(63, 60, 60);
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+`
+const Home = () => {
   return (
     <>
       <Container>
-        <div className="nav">
-          <div className="nav1">
-            <img src={logo} alt="" />
-          </div>
-          <div className="nav2">
-            <p className="nav1-p">Inicio</p>
-            <p className="nav1-p">Sobre nosotros</p>
-            <p className="nav1-p">Servicios</p>
-            <p className="nav1-p">Galería</p>
-          </div>
-        </div>
-        <section className="hero">
-          <div className="hero-video">
-            <video src={video} autoPlay loop muted></video>
-            <div className="absolute-div">
-              <h1 className="absolute-h1">
-                Formando artistas de todas las edades en técnicas de dibujo y
-                bellas artes
-              </h1>
-              <p className="absolute-p">
-                Descubre tu pasión por el arte y desarrolla tu talento con
-                nosotros
-              </p>
-              <div className="boton">
-              <button className="absolute-btn">Explorar</button>
-              <button className="absolute-btn">Inscribirme</button>   
-              </div>
-             
-            </div>
-          </div>
-        </section>
+        
+        <Hero/>
       </Container>
       <div className="div-clases">
         <Clases />
@@ -67,7 +44,7 @@ const Hero = () => {
             desarrollar su propio estilo artístico.
           </p>
         </div>
-        <div className="div-card">
+        <Profesores>
           <Card
             image={photo1}
             title="Luisa"
@@ -83,10 +60,10 @@ const Hero = () => {
             title="Julio"
             description="Descubre a nuestro tercer profesor, especializado en teoría del color y composición artística. Su comprensión profunda de los fundamentos del arte complementa su habilidad para motivar a los estudiantes a alcanzar nuevas alturas en su creatividad."
           />
-        </div>
+        </Profesores>
       </div>
     </>
   );
 };
 
-export default Hero;
+export default Home;

@@ -1,14 +1,13 @@
-import React from "react";
 import styled from "styled-components";
 import "../App.css";
+import { responsiveSize } from "../styles/responsiveSize";
 
-const Card = styled.div`
+const Container = styled.div`
   display: flex;
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 16px;
   max-width: 300px;
-  height: 550px;
   margin: 16px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #f4f4f4;
@@ -19,8 +18,8 @@ const Card = styled.div`
 `;
 
 const StyledImg = styled.img`
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: ${responsiveSize(200, 500)};
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid #000000;
@@ -35,14 +34,14 @@ const StyledDescription = styled.p`
   color: #666;
 `;
 
-const Profesor = ({ image, title, description }) => {
+const Card = ({ image, title, description }) => {
   return (
-    <Card>
+    <Container>
       <StyledImg src={image} alt={title} />
       <StyledTitle>{title}</StyledTitle>
       <StyledDescription>{description}</StyledDescription>
-    </Card>
+    </Container>
   );
 };
 
-export default Profesor;
+export default Card;
