@@ -1,17 +1,27 @@
 import React from "react";
-import "../App.css";
-import video from "../img/hero-video.webm";
-import Card from "../Card";
-import Clases from "../components/Clases.jsx";
-import photo1 from "../img/photo1.jpg";
-import photo2 from "../img/photo2.jpg";
-import photo3 from "../img/photo3.jpg";
-import logo from "../img/logo.png";
+import "../../App.css";
+import video from "../../img/hero-video.webm";
+import Card from "../../components/Card";
+import Clases from "../../components/Clases/index"
+import photo1 from "../../img/photo1.jpg";
+import photo2 from "../../img/photo2.jpg";
+import photo3 from "../../img/photo3.jpg";
+import logo from "../../img/logo.png"
+
+import styled from "styled-components";
+
+const Container = styled.div`
+ background-color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+`
 
 const Hero = () => {
   return (
     <>
-      <div className="container">
+      <Container>
         <div className="nav">
           <div className="nav1">
             <img src={logo} alt="" />
@@ -43,13 +53,13 @@ const Hero = () => {
             </div>
           </div>
         </section>
-      </div>
+      </Container>
       <div className="div-clases">
         <Clases />
       </div>
       <div className="div-teachers">
         <div className="div-header">
-          <h1 className="teacher-h1">Nuestros profesores</h1>
+          {/* <h1 className="teacher-h1">Nuestros profesores</h1> */}
           <p>
             Conoce a nuestros profesores, expertos en todos los campos de la
             pintura y las bellas artes. Su dedicación y habilidades en la
