@@ -20,8 +20,8 @@ const Logo = styled.img`
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
+  margin-left:20px;
+  margin-right:20px;
   font-size: 1em;
   padding: auto;
   @media (max-width: 800px) {

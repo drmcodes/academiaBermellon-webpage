@@ -83,6 +83,9 @@ body {
 
 
 .buttons-container {
+  justify-content: center;
+  margin: 20px;
+  display: flex;
   margin-top: 20px;
 }
 
