@@ -13,7 +13,7 @@ const Container = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 `;
 const Profesores = styled.div`
   display: flex;
