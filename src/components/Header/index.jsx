@@ -24,6 +24,9 @@ const Logo = styled.img`
   padding-right: 30px;
   font-size: 1em;
   padding: auto;
+  @media (max-width: 800px) {
+    margin:15px 5px;
+  }
 `;
 
 const Header = () => {

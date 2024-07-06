@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Buttons from "./Buttons";
 
 const Container = styled.div`
   display: flex;
@@ -18,20 +19,15 @@ const Title = styled.h1`
   text-align: center;
   font-size: 2.5em;
   color: var(--white);
-   @media (max-width: 800px) {
+  @media (max-width: 800px) {
     font-size: 2em;
   }
 `;
 const Description = styled.p`
   color: var(--white-smoke);
   font-size: 1.5rem;
+  margin: 40px;
 `;
-
-const Box = styled.div`
-  display: flex;
-  gap: 10px;  
-`;
-
 
 const HeroInfo = () => {
   return (
@@ -43,10 +39,7 @@ const HeroInfo = () => {
       <Description>
         Descubre tu pasión por el arte y desarrolla tu talento con nosotros
       </Description>
-      <Box>
-        <button className="absolute-btn">Explorar</button>
-        <button className="absolute-btn">Inscribirme</button>
-      </Box>
+      <Buttons />
     </Container>
   );
 };

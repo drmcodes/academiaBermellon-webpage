@@ -34,6 +34,7 @@ const StyledDescription = styled.p`
   color: #666;
 `;
 
+// eslint-disable-next-line react/prop-types
 const Card = ({ image, title, description }) => {
   return (
     <Container>

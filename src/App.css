@@ -31,15 +31,7 @@ body {
   align-items: center;
   margin: 10px;
 }
-.absolute-btn {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  background: #c44949;
-  color: white;
-  font-weight: 700;
-}
+
 
 .div-teachers {
   background-color: rgb(63, 60, 60);
@@ -71,46 +63,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 /* COMPONENTE CLASES --------------------------------------------*/
 
-.div-clases {
-  background-image: url("./assets/svgs/wave.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-.clases-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column; /* Mantiene el flujo en columna para los elementos principales */
-  justify-content: center;
-  align-items: center; /* Centra el contenido horizontalmente */
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
 
-}
 
-.cards-container {
-  display: flex;
-  flex-direction: row; /* Asegura que las tarjetas estén en fila */
-  flex-wrap: wrap; /* Permite que las tarjetas se ajusten al ancho del contenedor */
-  justify-content: space-between; /* Distribuye espacio uniformemente entre las tarjetas */
-  margin-top: 20px;
-  gap: 30px;
-}
 
-.card2 {
-  background-color: #f9f9f9;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  flex-basis: calc(33% - 30px); /* Hace que cada tarjeta ocupe 33% del contenedor menos el gap */
-}
+
 
 .card2 img {
   width: 100%;
@@ -118,13 +80,7 @@ body {
   object-fit: fill;
 }
 
-.card-image2 {
-  width: 100%;
-  height: 150px;
-  background-color: #e0e0e0;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
+
 
 .buttons-container {
   margin-top: 20px;

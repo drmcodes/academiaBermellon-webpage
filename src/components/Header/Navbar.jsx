@@ -11,6 +11,9 @@ const Container = styled.div`
   padding-right: 30px;
   font-size: 1em;
   padding: auto;
+  @media (max-width: 800px) {
+    display:none;
+  }
 `;
 
 const Navbar = () => {
