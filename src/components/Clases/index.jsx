@@ -1,6 +1,6 @@
 import Content from "./Content";
 import styled from "styled-components";
-import wave from "../../assets/svgs/wave2.svg";
+import wave from "../../../public/assets/svgs/wave2.svg"
 
 const Container = styled.div`
   display: flex;

@@ -1,4 +1,4 @@
-import logo from "../../assets/pngs/logo.png"
+import logo from "../../../public/assets/pngs/logo.png"
 import styled from "styled-components";
 import Navbar from "./Navbar";
 
