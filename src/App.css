@@ -18,11 +18,6 @@ body {
   --white: #ffffff;
 }
 
-.prueba{
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
 
 
 .boton {
