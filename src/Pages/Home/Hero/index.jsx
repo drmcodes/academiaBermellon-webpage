@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import HeroInfo from "./HeroInfo";
-import HeroWave from "../../../assets/svgs/wave3.svg"
+import HeroWave from "../../../../public/wave3.svg"
 import HeroImage from "./HeroImage";
 
 const Container = styled.div`
