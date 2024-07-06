@@ -8,7 +8,8 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%; 
-  max-width: 320px; 
+  max-width: 350px;
+  max-height:700px;
 `;
 
 const Photo = styled.img`
@@ -19,6 +20,7 @@ const Photo = styled.img`
   margin-bottom: 10px;
 `;
 
+// eslint-disable-next-line react/prop-types
 const Card = ({ img, title, content }) => {
   return (
     <Container>

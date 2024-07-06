@@ -8,7 +8,6 @@ const Container = styled.div`
   text-align: center;
   align-items: center; /* Centra el contenido horizontalmente */
   width: 50%;
-  margin: 20px;
   height: 100%; /* Para ocupar todo el alto del contenedor */
   @media (max-width: 800px) {
     width: 100%;
