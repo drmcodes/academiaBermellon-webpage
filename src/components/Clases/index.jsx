@@ -1,8 +1,7 @@
 import "../../App.css";
-import card1 from "../../assets/jpgs/card1.jpg"
-import card2 from "../../assets/jpgs/card2.jpg"
-import card3 from "../../assets/jpgs/card3.jpg"
-
+import card1 from "../../assets/jpgs/card1.jpg";
+import card2 from "../../assets/jpgs/card2.jpg";
+import card3 from "../../assets/jpgs/card3.jpg";
 
 const Clases = () => {
   return (
@@ -19,7 +18,7 @@ const Clases = () => {
       <div className="cards-container">
         <div className="card2">
           <div className="card-image2">
-          <img src={card1} alt="" />
+            <img src={card1} alt="" />
           </div>
           <h3>Técnicas de dibujo y bellas artes</h3>
           <p>
@@ -32,7 +31,6 @@ const Clases = () => {
           <div className="card-image2">
             <img src={card2} alt="" />
           </div>
-
           <h3>Clases personalizadas y flexibles</h3>
           <p>
             Adaptamos nuestras clases a tus necesidades y nivel de habilidad,
@@ -42,7 +40,7 @@ const Clases = () => {
         </div>
         <div className="card2">
           <div className="card-image2">
-          <img src={card3} alt="" />
+            <img src={card3} alt="" />
           </div>
           <h3>Exposiciones y eventos artísticos</h3>
           <p>

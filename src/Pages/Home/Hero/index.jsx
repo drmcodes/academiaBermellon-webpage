@@ -1,36 +1,29 @@
-import video from "../../../assets/webm/hero-video.webm"
-import styled from "styled-components"
+import styled from "styled-components";
+import HeroInfo from "./HeroInfo";
+import HeroWave from "../../../assets/svgs/wave3.svg";
+import HeroImage from "./HeroImage";
 
 const Container = styled.div`
-  flex: 1;
-  position: relative;
-`
-
-
+  background-image: url(${HeroWave});
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap:wrap
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+`;
 
 const Hero = () => {
   return (
     <Container>
-          <div className="hero-video">
-            <video src={video} autoPlay loop muted></video>
-            <div className="absolute-div">
-              <h1 className="absolute-h1">
-                Formando artistas de todas las edades en técnicas de dibujo y
-                bellas artes
-              </h1>
-              <p className="absolute-p">
-                Descubre tu pasión por el arte y desarrolla tu talento con
-                nosotros
-              </p>
-              <div className="boton">
-              <button className="absolute-btn">Explorar</button>
-              <button className="absolute-btn">Inscribirme</button>   
-              </div>
-             
-            </div>
-          </div>
-        </Container>
-  )
-}
+      <HeroInfo />
+      <HeroImage />
+    </Container>
+  );
+};
 
-export default Hero
+export default Hero;

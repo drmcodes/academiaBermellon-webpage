@@ -3,10 +3,9 @@ import styled from "styled-components";
 import Navbar from "./Navbar";
 
 const Container = styled.div`
-  background-color: wheat;
-  color: black;
+  background-color: var(--night);
+  color: var(--white-smoke);
   width: 100%;
-  height: 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;

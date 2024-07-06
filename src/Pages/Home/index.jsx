@@ -1,42 +1,40 @@
 import "../../App.css";
 import Hero from "./Hero";
 import Card from "../../components/Card";
-import Clases from "../../components/Clases/index"
-import photo1 from "../../assets/jpgs/photo1.jpg"
-import photo2 from "../../assets/jpgs/photo2.jpg"
-import photo3 from "../../assets/jpgs/photo3.jpg"
-
+import Clases from "../../components/Clases/index";
+import photo1 from "../../assets/jpgs/photo1.jpg";
+import photo2 from "../../assets/jpgs/photo2.jpg";
+import photo3 from "../../assets/jpgs/photo3.jpg";
 
 import styled from "styled-components";
 
 const Container = styled.div`
- background-color: white;
+  background-color: white;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
-`
+`;
 const Profesores = styled.div`
- display: flex;
+  display: flex;
   flex-wrap: wrap;
   background-color: rgb(63, 60, 60);
   justify-content: space-evenly;
   width: 100%;
   align-items: center;
-`
+`;
 const Home = () => {
   return (
     <>
       <Container>
-        
-        <Hero/>
+        <Hero />
       </Container>
       <div className="div-clases">
         <Clases />
       </div>
       <div className="div-teachers">
         <div className="div-header">
-          {/* <h1 className="teacher-h1">Nuestros profesores</h1> */}
+          <h1 className="teacher-h1">Nuestros profesores</h1>
           <p>
             Conoce a nuestros profesores, expertos en todos los campos de la
             pintura y las bellas artes. Su dedicación y habilidades en la
