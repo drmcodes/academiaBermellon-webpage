@@ -4,7 +4,7 @@ import HeroWave from "../../../../public/wave3.svg"
 import HeroImage from "./HeroImage";
 
 const Container = styled.div`
-  background-image: url(${HeroWave});
+  background: url(${HeroWave});
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
