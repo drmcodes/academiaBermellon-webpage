@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import video from "../../../../public/assets/webm/hero-video.webm"
+import video from "../../../assets/webm/hero-video.webm"
 
 const Container = styled.div`
   display: flex;

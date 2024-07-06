@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import Card from "./Card";
-import card1 from "../../../public/assets/jpgs/card1.jpg"
-import card2 from "../../../public/assets/jpgs/card2.jpg"
-import card3 from "../../../public/assets/jpgs/card3.jpg"
+import card1 from "../../assets/jpgs/card1.jpg"
+import card2 from "../../assets/jpgs/card2.jpg"
+import card3 from "../../assets/jpgs/card3.jpg"
 const Container = styled.div`
   display: flex;
   flex-direction: row; 

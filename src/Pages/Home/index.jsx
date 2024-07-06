@@ -2,9 +2,9 @@ import "../../App.css";
 import Hero from "./Hero";
 import Card from "../../components/Card";
 import Clases from "../../components/Clases/index";
-import photo1 from "../../../public/assets/jpgs/photo1.jpg"
-import photo2 from "../../../public/assets/jpgs/photo2.jpg"
-import photo3 from "../../../public/assets/jpgs/photo3.jpg"
+import photo1 from "../../assets/jpgs/photo1.jpg"
+import photo2 from "../../assets/jpgs/photo2.jpg"
+import photo3 from "../../assets/jpgs/photo3.jpg"
 
 import styled from "styled-components";
 
