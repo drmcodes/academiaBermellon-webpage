@@ -5,6 +5,7 @@ import Clases from "../../components/Clases/index";
 import photo1 from "../../assets/jpgs/photo1.jpg"
 import photo2 from "../../assets/jpgs/photo2.jpg"
 import photo3 from "../../assets/jpgs/photo3.jpg"
+import HeroWave from "../../assets/svgs/wave3.svg"
 
 import styled from "styled-components";
 
@@ -14,6 +15,9 @@ const Container = styled.div`
   height: 100%;
   display: flex;
   flex-direction: row;
+  background-image: url(${HeroWave});
+  background-repeat: no-repeat;
+  background-size: cover;
 `;
 const Profesores = styled.div`
   display: flex;
