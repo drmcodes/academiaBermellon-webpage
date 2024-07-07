@@ -1,4 +1,4 @@
-import logo from "../../assets/pngs/logo.png"
+import logo from "../../assets/pngs/logo.png";
 import styled from "styled-components";
 import Navbar from "./Navbar";
 
@@ -11,7 +11,7 @@ const Container = styled.div`
   align-items: center;
   border-bottom: 1px solid black;
   font-weight: bold;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 `;
 
 const Logo = styled.img`
@@ -20,12 +20,12 @@ const Logo = styled.img`
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin-left:20px;
-  margin-right:20px;
+  margin-left: 20px;
+  margin-right: 20px;
   font-size: 1em;
   padding: auto;
   @media (max-width: 800px) {
-    margin:15px 5px;
+    margin: 15px 5px;
   }
 `;
 

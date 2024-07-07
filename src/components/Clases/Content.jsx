@@ -1,4 +1,3 @@
-import "../../App.css";
 import ClassCards from "./ClassCards";
 import styled from "styled-components";
 import Title from "./Title";
@@ -15,7 +14,7 @@ const Content = () => {
     <Container>
       <Title />
       <ClassCards />
-      <Buttons/>
+      <Buttons />
     </Container>
   );
 };

@@ -7,14 +7,14 @@ const Container = styled.div`
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  width: 100%; 
+  width: 100%;
   max-width: 350px;
-  max-height:700px;
+  max-height: 700px;
 `;
 
 const Photo = styled.img`
   width: 100%;
-  height: auto; 
+  height: auto;
   background-color: #e0e0e0;
   border-radius: 5px;
   margin-bottom: 10px;

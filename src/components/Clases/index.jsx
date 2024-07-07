@@ -4,18 +4,17 @@ import styled from "styled-components";
 const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   width: 100%;
-  height:100%;
+  height: 100%;
   margin: 0 auto;
   text-align: center;
   background-image: url(/assets/svgs/wave2.svg);
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 `;
 
 const Clases = () => {

@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 const Container = styled.div`
   justify-content: center;
-  margin: 20px;
+  margin: 10px;
   display: flex;
-  margin-top: 20px;
-  gap:10px;
+  margin: 40px;
+  gap: 10px;
 `;
 
 const Button = styled.button`

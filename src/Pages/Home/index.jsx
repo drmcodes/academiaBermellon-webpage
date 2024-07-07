@@ -1,10 +1,7 @@
 import "../../App.css";
 import Hero from "./Hero";
-
 import Clases from "../../components/Clases/index";
-
 import Teachers from "./Profesores";
-
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -24,8 +21,8 @@ const Home = () => {
       <Container>
         <Hero />
       </Container>
-        <Clases />
-       <Teachers/>
+      <Clases />
+      <Teachers />
     </>
   );
 };

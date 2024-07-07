@@ -1,4 +1,3 @@
-
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -12,7 +11,7 @@ const Container = styled.div`
   font-size: 1em;
   padding: auto;
   @media (max-width: 800px) {
-    display:none;
+    display: none;
   }
 `;
 

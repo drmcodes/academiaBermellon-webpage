@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import "../App.css";
 
 const Container = styled.div`
   display: flex;
@@ -9,20 +8,20 @@ const Container = styled.div`
   max-width: 300px;
   margin: 16px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #f4f4f4;
+  background-color: var(--white-smoke);
   justify-content: center;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  min-height: 400px;  
+  height: 600px; /* Ajuste de altura fija */
 `;
 
 const StyledImg = styled.img`
   width: 100%;
-  height: 300px;  
+  height: 300px;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid #000000;
+  border: 1px solid var(--night);
 `;
 
 const StyledTitle = styled.h2`
@@ -31,7 +30,7 @@ const StyledTitle = styled.h2`
 `;
 
 const StyledDescription = styled.p`
-  color: #666;
+  color: var(--night);
   text-align: center;
 `;
 
@@ -52,7 +51,7 @@ const StyledButton = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none; /* Remove underline from links */
+  text-decoration: none;
 
   &:hover {
     background-color: #e0e0e0;
@@ -74,7 +73,12 @@ const Card = ({ image, title, description, buttonImages }) => {
       {buttonImages && buttonImages.length > 0 && (
         <StyledParent>
           {buttonImages.map((btn, index) => (
-            <StyledButton key={index} href={btn.url} target="_blank" rel="noopener noreferrer">
+            <StyledButton
+              key={index}
+              href={btn.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <ButtonImage src={btn.src} alt={`Button ${index}`} />
             </StyledButton>
           ))}
