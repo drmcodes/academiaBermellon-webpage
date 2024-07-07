@@ -8,9 +8,15 @@ text-align:justify;
 `
 
 const H1 = styled.h1`
-font-size:2rem;
+font-size:3rem;
+color: var(--white);
+border-bottom: 1px solid var(--white-smoke);
+padding-bottom:10px;
 text-align:center;
-margin:10px
+margin:10px;
+ @media (max-width: 800px) {
+    font-size:2rem
+  }
 `
 
 const Paragraph = styled.p`

@@ -2,10 +2,9 @@ import "../../App.css";
 import Hero from "./Hero";
 import Card from "../../components/Card";
 import Clases from "../../components/Clases/index";
-import photo1 from "../../assets/jpgs/photo1.jpg"
-import photo2 from "../../assets/jpgs/photo2.jpg"
-import photo3 from "../../assets/jpgs/photo3.jpg"
-import HeroPyramid from "../../assets/pngs/uxie.png"
+import photo1 from "../../assets/jpgs/photo1.jpg";
+import photo2 from "../../assets/jpgs/photo2.jpg";
+import photo3 from "../../assets/jpgs/photo3.jpg";
 
 import styled from "styled-components";
 
@@ -15,9 +14,9 @@ const Container = styled.div`
   height: 100%;
   display: flex;
   flex-direction: row;
-  background-image: url(${HeroPyramid});
+  background-image: url(/assets/svgs/wave3.svg);
   background-repeat: no-repeat;
-    background-position: center;
+  background-position: center;
   background-size: cover;
 `;
 const Profesores = styled.div`
