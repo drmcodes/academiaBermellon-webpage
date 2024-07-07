@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import "../App.css";
 
 const Container = styled.div`
   display: flex;
@@ -13,7 +14,7 @@ const Container = styled.div`
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  height: auto;
+  min-height: 400px;
 `;
 
 const StyledImg = styled.img`

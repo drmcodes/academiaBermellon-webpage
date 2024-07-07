@@ -16,6 +16,7 @@ const Container = styled.div`
 
 const Title = styled.h1`
   text-align: center;
+  margin:20px;
   font-size: 2.5em;
   color: var(--white);
   @media (max-width: 800px) {
@@ -25,7 +26,7 @@ const Title = styled.h1`
 const Description = styled.p`
   color: var(--white-smoke);
   font-size: 1.5rem;
-  margin: 40px;
+  margin: 20px;
 `;
 
 const HeroInfo = () => {

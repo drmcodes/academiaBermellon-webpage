@@ -12,7 +12,7 @@ const H1 = styled.h1`
   color: var(--night);
   border-bottom: 1px solid var(--blood-red);
   padding-bottom: 10px;
-  text-align: center;
+  text-align: left;
   margin: 40px;
   @media (max-width: 800px) {
     font-size: 2rem;
