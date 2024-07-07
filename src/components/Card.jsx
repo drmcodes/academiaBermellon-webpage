@@ -13,7 +13,7 @@ const Container = styled.div`
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 600px; /* Ajuste de altura fija */
+  height: auto;
 `;
 
 const StyledImg = styled.img`
