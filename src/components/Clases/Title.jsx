@@ -9,8 +9,8 @@ text-align:justify;
 
 const H1 = styled.h1`
 font-size:3rem;
-color: var(--white);
-border-bottom: 1px solid var(--white-smoke);
+color: var(--night);
+border-bottom: 1px solid var(--blood-red);
 padding-bottom:10px;
 text-align:center;
 margin:10px;
