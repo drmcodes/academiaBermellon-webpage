@@ -2,6 +2,7 @@ import "../../App.css";
 import ClassCards from "./ClassCards";
 import styled from "styled-components";
 import Title from "./Title";
+import Buttons from "./Buttons";
 
 const Container = styled.div`
   display: flex;
@@ -14,11 +15,7 @@ const Content = () => {
     <Container>
       <Title />
       <ClassCards />
-      <div className="buttons-container">
-        <button className="explore-button">Explorar</button>
-        <button className="signup-button">Inscríbete</button>
-      </div>
-      
+      <Buttons/>
     </Container>
   );
 };

@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import "../App.css";
-import { responsiveSize } from "../styles/responsiveSize";
 
 const Container = styled.div`
   display: flex;
@@ -15,11 +14,12 @@ const Container = styled.div`
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
+  min-height: 400px;  
 `;
 
 const StyledImg = styled.img`
   width: 100%;
-  height: ${responsiveSize(200, 500)};
+  height: 300px;  
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid #000000;
@@ -32,15 +32,54 @@ const StyledTitle = styled.h2`
 
 const StyledDescription = styled.p`
   color: #666;
+  text-align: center;
+`;
+
+const StyledParent = styled.div`
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 16px;
+`;
+
+const StyledButton = styled.a`
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; /* Remove underline from links */
+
+  &:hover {
+    background-color: #e0e0e0;
+  }
+`;
+
+const ButtonImage = styled.img`
+  width: 24px;
+  height: 24px;
 `;
 
 // eslint-disable-next-line react/prop-types
-const Card = ({ image, title, description }) => {
+const Card = ({ image, title, description, buttonImages }) => {
   return (
     <Container>
       <StyledImg src={image} alt={title} />
       <StyledTitle>{title}</StyledTitle>
       <StyledDescription>{description}</StyledDescription>
+      {buttonImages && buttonImages.length > 0 && (
+        <StyledParent>
+          {buttonImages.map((btn, index) => (
+            <StyledButton key={index} href={btn.url} target="_blank" rel="noopener noreferrer">
+              <ButtonImage src={btn.src} alt={`Button ${index}`} />
+            </StyledButton>
+          ))}
+        </StyledParent>
+      )}
     </Container>
   );
 };

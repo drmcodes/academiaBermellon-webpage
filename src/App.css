@@ -20,35 +20,13 @@ body {
 
 
 
-.boton {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 10px;
-}
 
-
-.div-teachers {
-  background-color: rgb(63, 60, 60);
-  color: #c44949;
-  display: flex;
-  flex-direction: column;
-}
 
 .div-teachers h1 {
   margin: 24px;
 }
 
-.div-teachers p {
-  color: black;
-  display: flex;
-}
 
-.teacher-h1 {
-  padding-bottom: 15px;
-  font-size: 3em;
-  border-bottom: 1px solid #f4f4f4;
-}
 
 .div-header p {
   color: white;
@@ -75,36 +53,5 @@ body {
   object-fit: fill;
 }
 
-
-
-.buttons-container {
-  justify-content: center;
-  margin: 20px;
-  display: flex;
-  margin-top: 20px;
-}
-
-.explore-button,
-.signup-button {
-  padding: 10px 20px;
-  margin: 0 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.explore-button {
-  background-color: white;
-  color: black;
-  font-weight: 600;
-  border: 1px solid black;
-}
-
-.signup-button {
-  background-color: #f9f9f9;
-  color: black;
-  border: 1px solid black;
-  font-weight: 600;
-}
 
 
