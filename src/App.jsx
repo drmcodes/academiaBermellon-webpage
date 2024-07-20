@@ -1,7 +1,7 @@
 
 import './App.css';
 import Home from './Pages/Home';
-import Header from './components/Header';
+import Header from './Pages/Home/Header';
 import GlobalStyle from "./GlobalStyles";
 import Footer from './Pages/Home/Footer';
 

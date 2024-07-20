@@ -1,6 +1,6 @@
 import "../../App.css";
 import Hero from "./Hero";
-import Clases from "../../components/Clases/index";
+import Clases from "./Clases";
 import Teachers from "./Profesores";
 import styled from "styled-components";
 
