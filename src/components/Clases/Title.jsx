@@ -5,6 +5,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: justify;
+  width:100%;
 `;
 
 const H1 = styled.h1`

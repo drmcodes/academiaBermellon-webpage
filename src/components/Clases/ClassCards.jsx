@@ -9,6 +9,7 @@ const Container = styled.div`
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 20px;
+  width:100%;
 `;
 
 const ClassCards = () => {

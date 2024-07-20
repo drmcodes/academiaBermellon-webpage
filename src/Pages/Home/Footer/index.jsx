@@ -13,7 +13,7 @@ const Container = styled.div`
 const Content = styled.div`
   display: grid;
   width: 90%;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   text-align: left;
 `;
 const FooterContent = styled.div`
@@ -64,15 +64,7 @@ const Footer = () => {
             <li>Link 4</li>
           </UList>
         </FooterContent>
-        <FooterContent>
-          <Title>LINKS</Title>
-          <UList>
-            <li>Link 1</li>
-            <li>Link 2</li>
-            <li>Link 3</li>
-            <li>Link 4</li>
-          </UList>
-        </FooterContent>
+        
       </Content>
     </Container>
   );
