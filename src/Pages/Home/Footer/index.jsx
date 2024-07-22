@@ -5,10 +5,9 @@ const Container = styled.div`
   justify-content: center;
   margin: 0 auto;
   width: 100%;
-  background-color:var(--eerie-black);
-  color:var(--white);
-  border-top:1px solid white;
-  
+  background-color: var(--eerie-black);
+  color: var(--white);
+  border-top: 1px solid white;
 `;
 const Content = styled.div`
   display: grid;
@@ -18,22 +17,23 @@ const Content = styled.div`
 `;
 const FooterContent = styled.div`
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;
 
 const Title = styled.h2`
-padding:0;
-width:
-`
+  padding: 0;
+`;
 
-const Paragraph = styled.p`
-
-`
+const Paragraph = styled.p``;
 
 const UList = styled.ul`
-list-style:none;
-margin:0;
-padding:0;
-`
+  list-style: none;
+  margin: 0;
+  padding: 0;
+`;
 
 const Footer = () => {
   return (
@@ -64,7 +64,6 @@ const Footer = () => {
             <li>Link 4</li>
           </UList>
         </FooterContent>
-        
       </Content>
     </Container>
   );
