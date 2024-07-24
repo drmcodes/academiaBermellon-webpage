@@ -55,7 +55,7 @@ const Footer = () => {
         <FooterContent>
           <Title>CONTACTO</Title>
           <Paragraph>
-            Academia Bermellón Avenida Isabel La Católica
+            Academia Bermellón
           </Paragraph>
         </FooterContent>
         <FooterContent>
