@@ -2,37 +2,50 @@ import styled from "styled-components";
 
 const Container = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
+  align-items: center;
   width: 100%;
   background-color: var(--eerie-black);
   color: var(--white);
   border-top: 1px solid white;
+  padding: 20px 0;
 `;
+
 const Content = styled.div`
   display: grid;
   width: 90%;
   grid-template-columns: repeat(3, 1fr);
-  text-align: left;
+  gap: 20px;
+  text-align: left; 
 `;
+
 const FooterContent = styled.div`
-  margin: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start; 
 `;
 
 const Title = styled.h2`
-  padding: 0;
+  padding: 10px 0;
+  font-size: 1.1em;
+   border-bottom:1px solid white;
+   width:100%;
 `;
 
-const Paragraph = styled.p``;
+const Paragraph = styled.p`
+  margin: 10px 0;
+  font-size: 1em;
+  line-height: 1.5;
+`;
 
 const UList = styled.ul`
   list-style: none;
   margin: 0;
   padding: 0;
+  font-size: 1em;
+  line-height: 1.5;
+  width:100%;
 `;
 
 const Footer = () => {
@@ -40,10 +53,9 @@ const Footer = () => {
     <Container>
       <Content>
         <FooterContent>
-          <Title>FOOTER CONTENT</Title>
+          <Title>CONTACTO</Title>
           <Paragraph>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
-            quod hic suscipit voluptates corrupti placeat!
+            Academia Bermellón Avenida Isabel La Católica
           </Paragraph>
         </FooterContent>
         <FooterContent>
@@ -65,6 +77,9 @@ const Footer = () => {
           </UList>
         </FooterContent>
       </Content>
+      <Paragraph style={{ marginTop: "20px" }}>
+        © 2024 Your Company. All rights reserved.
+      </Paragraph>
     </Container>
   );
 };
