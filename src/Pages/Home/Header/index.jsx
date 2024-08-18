@@ -12,6 +12,8 @@ const Container = styled.div`
   border-bottom: 1px solid black;
   font-weight: bold;
   flex-wrap: wrap;
+  position:fixed;
+  top:0;
 `;
 
 const Logo = styled.img`

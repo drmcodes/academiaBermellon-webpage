@@ -3,6 +3,7 @@ import Card from "./Card";
 import card1 from "../../../assets/jpgs/cards/card1.jpg"
 import card2 from "../../../assets/jpgs/cards/card2.jpg"
 import card3 from "../../../assets/jpgs/cards/card3.jpg"
+import card4 from "../../../assets/jpgs/cards/card4.jpg"
 const Container = styled.div`
   display: flex;
   flex-direction: row;
@@ -37,7 +38,7 @@ const ClassCards = () => {
         }
       />
       <Card
-        img={card1}
+        img={card4}
         title={"Talleres y Escuela de verano"}
         content={
           "Únete a nuestros talleres y programas de escuela de verano, donde ofrecemos actividades intensivas y divertidas que te ayudarán a desarrollar tus habilidades artísticas mientras disfrutas de un ambiente veraniego y colaborativo."
