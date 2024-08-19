@@ -16,7 +16,7 @@ const Container = styled.div`
 
 const Hero = () => {
   return (
-    <Container>
+    <Container id="hero">
       <HeroInfo />
       <HeroImage />
     </Container>
