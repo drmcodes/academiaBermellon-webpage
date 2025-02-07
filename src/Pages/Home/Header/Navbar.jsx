@@ -11,7 +11,7 @@ const Container = styled.div`
   padding-right: 30px;
   font-size: 1em;
   padding: auto;
-  @media (max-width: 810px) {
+  @media (max-width: 940px) {
     justify-content: flex-end;
   }
 `;
@@ -20,7 +20,7 @@ const Button = styled.button`
   background-color: transparent;
   color: var(--white-smoke);
   margin: 20px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   border: none;
   border-radius: 25px;
   cursor: pointer;
@@ -45,7 +45,7 @@ const Menu = styled.div`
   align-items: center;
   gap: 10px;
 
-  @media (max-width: 810px) {
+  @media (max-width: 940px) {
     display: ${({ isOpen }) => (isOpen ? "flex" : "none")};
     position: absolute;
     top: 50px;
@@ -63,8 +63,10 @@ const HamburgerButton = styled.button`
   background: none;
   border: none;
   cursor: pointer;
+  padding: 10px 10px;
+  margin: 10px;
 
-  @media (max-width: 810px) {
+  @media (max-width: 940px) {
     display: flex;
     color: var(--white-smoke);
     font-size: 24px;
