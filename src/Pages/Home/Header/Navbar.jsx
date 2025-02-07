@@ -17,8 +17,8 @@ const Container = styled.div`
 `;
 
 const Button = styled.button`
-  background-color: var(--white-smoke);
-  color: var(--night);
+  background-color: transparent;
+  color: var(--white-smoke);
   margin: 20px;
   padding: 10px 20px;
   border: none;

@@ -14,6 +14,7 @@ const Container = styled.div`
   flex-wrap: wrap;
   position:fixed;
   top:0;
+  z-index: 1000;
 `;
 
 const Logo = styled.img`
@@ -24,6 +25,7 @@ const Logo = styled.img`
   gap: 10px;
   margin-left: 20px;
   margin-right: 20px;
+  padding-left: 30px;
   font-size: 1em;
   padding: auto;
   @media (max-width: 800px) {
