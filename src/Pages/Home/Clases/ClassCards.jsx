@@ -35,9 +35,8 @@ const CardWrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #fff;
-  border-radius: 15px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+
   width: 85%;
   max-width: 1000px;
   height: auto;
@@ -63,7 +62,7 @@ const CardTitle = styled.h3`
 
 const CardText = styled.p`
   font-size: 17px;
-  color: #555;
+  color: var(--white-smoke);
   margin-top: 6px;
 `;
 

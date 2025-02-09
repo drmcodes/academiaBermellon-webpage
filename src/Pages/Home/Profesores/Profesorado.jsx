@@ -41,7 +41,7 @@ const CardWrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  background-color: #fff;
+  background-color: transparent;
   border-radius: 15px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   width: 90%;
@@ -83,13 +83,13 @@ const TextContainer = styled.div`
   h3 {
     font-size: 2rem;
     margin-bottom: 15px;
-    color: #333;
+    color: var(--imperial-red);
   }
 
   p {
     font-size: 1.2rem;
     line-height: 1.8;
-    color: #666;
+    color: var(--white-smoke);
   }
 
   @media (max-width: 810px) {
