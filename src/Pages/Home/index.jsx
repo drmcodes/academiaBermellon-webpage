@@ -1,29 +1,22 @@
-import "../../App.css";
 import Hero from "./Hero";
-import Clases from "./Clases";
-import Teachers from "./Profesores";
-import styled from "styled-components";
-
-const Container = styled.div`
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  background-image: url(/assets/svgs/wave3.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-`;
+import About from "./About";
+import Gallery from "./Gallery";
+import Services from "./Services";
+import Artists from "./Artists";
+import Workshops from "./Workshops";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
-    <>
-      <Container>
-        <Hero />
-      </Container>
-      <Clases />
-      <Teachers />
-    </>
+    <main>
+      <Hero />
+      <About />
+      <Gallery />
+      <Services />
+      <Artists />
+      <Workshops />
+      <Contact />
+    </main>
   );
 };
 
